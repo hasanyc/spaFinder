@@ -3,7 +3,7 @@ package spafinder.com.value;
 public class MyAccountValues {
 	
 	public String SpaEmail							= "qa.spafinder365@gmail.com";
-	public String SpaPassword						= "Finderspa1";
+	public String SpaPassword						= "xxxx;
 	
 // Side Rail Links Value		
 	public String overviewValue						= "Redeem rewards, book appointments, write reviews and more!";
