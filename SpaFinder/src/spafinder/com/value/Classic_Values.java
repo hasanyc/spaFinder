@@ -8,7 +8,7 @@ public class Classic_Values {
 	//public String UKemailValue					= "qa.uktest@hotmail.com";
 	public String adminUserValue						= "qa.test";
 		
-	public String passwordValue						= "Finderspa1";
+	public String passwordValue						= "PWD";
 	public String firstNameValue					= "Hasan";
 	public String lastNameValue 					= "Bhuiyan";
 	public String CountryValue						= "United States";
