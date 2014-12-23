@@ -5,7 +5,7 @@ public class OnlineBookingValue {
 	public String SpaEmail									= "qa.test@spafinder.com"; // "qa.spafinder365@gmail.com";
 	public String UKemailValue								= "qa.testuk@hotmail.com";
 	//public String UKemailValue							= "qa.uktest@hotmail.com";
-	public String SpaPassword								= "Finderspa1";
+	public String SpaPassword								= "pwd";
 	public String emailWithNoSavedCard						= "qa.test@hotmail.com";
 		
 // New Cusomters
