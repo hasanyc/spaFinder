@@ -8,7 +8,7 @@ public String emailWithNoSavedCard					= "qa.test@hotmail.com";
 //public String UKemailValue						= "qa.uktest@hotmail.com";
 public String adminUserValue						= "qa.test";
 
-public String passwordValue							= "Finderspa1";
+public String passwordValue							= "xxxxxxxx";
 public String firstNameValue						= "Hasan";
 public String lastNameValue 						= "Bhuiyan";
 public String CountryValue							= "United States";
