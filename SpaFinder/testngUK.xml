@@ -1,0 +1,159 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SpaFinder.co.uk">
+
+<test name="UK Classic Existing User">
+    <classes>
+        <class name="spafinder.co.uk.Classic_ExistingUserInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Existing User Using 3D Visa">
+    <classes>
+        <class name="spafinder.co.uk.Classic_ExistingUserUsing3DVisaInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Existing User Using Promo">
+    <classes>
+        <class name="spafinder.co.uk.Classic_ExistingUserUsingPromoInUK" ></class>  
+    </classes>
+</test>
+
+
+<test name="UK Classic Existing User With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.Classic_ExistingUserWithMultipleCardsAndPromoInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Guest">
+    <classes>
+        <class name="spafinder.co.uk.Classic_GuestInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Guest Using 3D Visa">
+    <classes>
+        <class name="spafinder.co.uk.Classic_GuestUsing3DVisaInUK" ></class>  
+    </classes>
+</test>
+
+
+<test name="UK Classic Guest Using Promo">
+    <classes>
+        <class name="spafinder.co.uk.Classic_GuestUsingPromoInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Guest With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.Classic_GuestWithMultipleCardsAndPromoInUK"></class>  
+    </classes>
+</test>
+
+
+<test name="UK IGC Existing User">
+    <classes>
+        <class name="spafinder.co.uk.IGC_ExistingUserInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Existing User Using 3D Visa Card">
+    <classes>
+        <class name="spafinder.co.uk.IGC_ExistingUserUsing3DVisaCardInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Existing User Using Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_ExistingUserUsingPromoInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Email Existing User With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_Email_ExistingUserWithMultipleCardsAndPromoUK"></class>  
+    </classes>
+</test>
+
+
+<test name="UK IGC Email Guest">
+    <classes>
+        <class name="spafinder.co.uk.IGC_GuestInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Guest Using 3D Visa Card">
+    <classes>
+        <class name="spafinder.co.uk.IGC_GuestUsing3DVisaInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Guest Using Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_GuestUsingPromoInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Guest With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_GuestWithMultipleCardsAndPromoUK" ></class>  
+    </classes>
+</test>
+
+
+<test name="UK IGC Print User With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_Print_ExistingUserWithMultipleCardsAndPromoUK"></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Print Guest">
+    <classes>
+        <class name="spafinder.co.uk.IGC_Print_GuestInUK"></class>  
+    </classes>
+</test>
+
+
+<test name="UK MBO using GC Test">
+    <classes>
+        <class name="spafinder.co.uk.MBOusingGCinUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK MBO using GC and Gift Card Test">
+    <classes>
+        <class name="spafinder.co.uk.MBOusingGCandCCinUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Existing MBO using CC">
+    <classes>
+        <class name="spafinder.co.uk.MboMemberUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Existing G1 Checkout Using CC">
+    <classes>
+        <class name="spafinder.co.uk.G1AlreadyMemberUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK G1 Checkout using Gift Card">
+    <classes>
+        <class name="spafinder.co.uk.G1usingGCinUK" ></class>  
+    </classes>
+</test>
+
+
+
+
+
+<test name="UK My Account Page">
+    <classes>
+        <class name="spafinder.co.uk.MyAccountPage_InUK" ></class>  
+    </classes>
+</test>
+
+
+</suite>

@@ -1,0 +1,120 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Spafinder">
+
+
+
+<test name="MBO_Existing user using Gift Card in USA">
+    <classes>
+        <class name="spafinder.com.MBOusingGCinUSA" ></class>  
+    </classes>
+</test>
+
+<test name="MBO_Existing user using Credit Card in USA">
+    <classes>
+        <class name="spafinder.com.MBOalreadyMemberUSA" ></class>  
+    </classes>
+</test>
+
+<test name="MBO_Existing user using Gift and Credit Card in USA">
+    <classes>
+        <class name="spafinder.com.MBOusingGCandCC" ></class>  
+    </classes>
+</test>
+
+<test name="G1_Existing user using Credit Card in USA">
+    <classes>
+        <class name="spafinder.com.G1AlreadyMemberUSA" ></class>  
+    </classes>
+</test>
+
+<test name="G1_Existing user using Gift Card in USA">
+    <classes>
+        <class name="spafinder.com.G1usingGC" ></class>  
+    </classes>
+</test>
+
+
+
+
+<test name="CA MBO Existing User Using Gift Card">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingGiftCardInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA MBO Existing User Using CC and GC">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingCCandGCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA MBO Existing User Using CC">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingCCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA G1 Existing User Using CC and GC">
+    <classes>
+        <class name="spafinder.ca.G1_ExistingUserUsingCCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA G1 Existing User Using Gift Card">
+    <classes>
+        <class name="spafinder.ca.G1_ExistingUserUsingGiftCardInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="UK MBO using GC">
+    <classes>
+        <class name="spafinder.co.uk.MBOusingGCinUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK MBO using CC and Gift Card Test">
+    <classes>
+        <class name="spafinder.co.uk.MBOusingGCandCCinUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Existing MBO Checkout using CC">
+    <classes>
+        <class name="spafinder.co.uk.MboMemberUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Existing G1 Checkout Using CC">
+    <classes>
+        <class name="spafinder.co.uk.G1AlreadyMemberUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK G1 Checkout using Gift Card">
+    <classes>
+        <class name="spafinder.co.uk.G1usingGCinUK" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA My Account Page">
+    <classes>
+        <class name="spafinder.ca.MyAccountPage_InCA" ></class>  
+    </classes>
+</test>
+
+<test name="UK My Account Page">
+    <classes>
+        <class name="spafinder.co.uk.MyAccountPage_InUK" ></class>  
+    </classes>
+</test>
+
+<test name="My Account Page in USA">
+    <classes>
+        <class name="spafinder.com.MyAccountPageInUSA" ></class>  
+    </classes>
+</test>
+
+
+</suite>

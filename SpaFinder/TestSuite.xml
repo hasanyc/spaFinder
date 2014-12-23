@@ -1,0 +1,465 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Spafinder">
+
+<test name="Classic_Existing User using FlyerMiles In USA">
+    <classes>
+        <class name="spafinder.com.Classic_ExistingUserUsingFlyerMilesInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="Classic_Existing User Using Multiple Cards And Promo In USA">
+    <classes>
+        <class name="spafinder.com.Classic_ExistingUserUsingMultipleCardAndPromoInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="Classic_Existing User Using New Card In USA">
+    <classes>
+        <class name="spafinder.com.Classic_ExistingUserUsingNewCardInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="Classic_Existing User Using Promo Code In USA">
+    <classes>
+        <class name="spafinder.com.Classic_ExistingUserUsingPromoCodeInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="Classic_Existing User Using Saved Card In USA">
+    <classes>
+        <class name="spafinder.com.Classic_ExistingUserUsingSavedCardInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="Classic_Guest In USA">
+    <classes>
+        <class name="spafinder.com.Classic_GuestInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="Classic_Guest Using Flyer Miles In USA">
+    <classes>
+        <class name="spafinder.com.Classic_GuestUsingFlyerMilesInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="Classic_Guest Using Multiple Cards And Promo In USA">
+    <classes>
+        <class name="spafinder.com.Classic_GuestUsingMultipleCardsAndPromoInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="Classic_Guest Using Promo In USA">
+    <classes>
+        <class name="spafinder.com.Classic_GuestUsingPromoInUSA" ></class>  
+    </classes>
+</test>
+
+
+<test name="IGC_Existing User Using Flyer Miles In USA">
+    <classes>
+        <class name="spafinder.com.IGC_ExistingUserUsingFlyerMilesInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Existing User Using New Card In USA">
+    <classes>
+        <class name="spafinder.com.IGC_ExistingUserUsingNewCardInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Existing User Using Promo In USA">
+    <classes>
+        <class name="spafinder.com.IGC_ExistingUserUsingPromoInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Existing User Using Saved Card In USA">
+    <classes>
+        <class name="spafinder.com.IGC_ExistingUserUsingSavedCardInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Existing User With Multiple Cards And Promo In USA">
+    <classes>
+        <class name="spafinder.com.IGC_ExistingUserWithMultipleCardsAndPromoInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Guest In USA">
+    <classes>
+        <class name="spafinder.com.IGC_GuestInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Guest Using Flyer Miles">
+    <classes>
+        <class name="spafinder.com.IGC_GuestUsingFlyerMiles" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Guest Using Multiple Cards And Promo in USA">
+    <classes>
+        <class name="spafinder.com.IGC_GuestUsingMultipleCardsAndPromoInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Guest Using Promo In USA">
+    <classes>
+        <class name="spafinder.com.IGC_GuestUsingPromoInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_Guest using PRINT option in USA">
+    <classes>
+        <class name="spafinder.com.IGC_Print_GuestInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="IGC_USER using PRINT option with Multiple Cards and Promo in USA">
+    <classes>
+        <class name="spafinder.com.IGC_Print_UserAlreadySignedIn_WithMultipleCardsAndPromoUsingSavedCardInUSA" ></class>  
+    </classes>
+</test>
+
+<test name="MBO_Existing user using Gift Card in USA">
+    <classes>
+        <class name="spafinder.com.MBOusingGCinUSA" ></class>  
+    </classes>
+</test>
+
+<test name="MBO_Existing user using Credit Card in USA">
+    <classes>
+        <class name="spafinder.com.MBOalreadyMemberUSA" ></class>  
+    </classes>
+</test>
+
+<test name="MBO_Existing user using Gift and Credit Card in USA">
+    <classes>
+        <class name="spafinder.com.MBOusingGCandCC" ></class>  
+    </classes>
+</test>
+
+<test name="G1_Existing user using Credit Card in USA">
+    <classes>
+        <class name="spafinder.com.G1AlreadyMemberUSA" ></class>  
+    </classes>
+</test>
+
+<test name="G1_Existing user using Gift Card in USA">
+    <classes>
+        <class name="spafinder.com.G1usingGC" ></class>  
+    </classes>
+</test>
+
+
+
+<test name="CA Classic Existing User">
+    <classes>
+        <class name="spafinder.ca.Classic_ExistingUserInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA Classic Existing User With Multiple Cards And Promo Using Express">
+    <classes>
+        <class name="spafinder.ca.Classic_ExistingUserWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA Classic Guest">
+    <classes>
+        <class name="spafinder.ca.Classic_GuestInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA Classic Guest With Multiple Cards And Promo using Express Shipping">
+    <classes>
+        <class name="spafinder.ca.Classic_GuestWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA IGC Existing User">
+    <classes>
+        <class name="spafinder.ca.IGC_ExistingUserInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Existing User With Flyer Miles">
+    <classes>
+        <class name="spafinder.ca.IGC_ExistingUserWithFlyerMilesInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Email Existing User With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.ca.IGC_ExistingUserWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Email Guest">
+    <classes>
+        <class name="spafinder.ca.IGC_GuestInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Guest Using Flyer Miles">
+    <classes>
+        <class name="spafinder.ca.IGC_GuestUsingFlyerMilesInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Guest With Multiple Cards And Promo using express shipping">
+    <classes>
+        <class name="spafinder.ca.IGC_GuestWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA IGC Print Gust">
+    <classes>
+        <class name="spafinder.ca.IGC_Print_GuestInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC User With Multiple Cards And Promo using PRINT option">
+    <classes>
+        <class name="spafinder.ca.IGC_Print_UserWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA MBO Existing User Using Gift Card">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingGiftCardInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA MBO Existing User Using CC and GC">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingCCandGCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA MBO Existing User Using CC">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingCCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA G1 Existing User Using CC and GC">
+    <classes>
+        <class name="spafinder.ca.G1_ExistingUserUsingCCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA G1 Existing User Using Gift Card">
+    <classes>
+        <class name="spafinder.ca.G1_ExistingUserUsingGiftCardInCA" ></class>  
+    </classes>
+</test>
+
+
+
+
+<test name="UK Classic Existing User">
+    <classes>
+        <class name="spafinder.co.uk.Classic_ExistingUserInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Existing User Using 3D Visa">
+    <classes>
+        <class name="spafinder.co.uk.Classic_ExistingUserUsing3DVisaInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Existing User Using Promo">
+    <classes>
+        <class name="spafinder.co.uk.Classic_ExistingUserUsingPromoInUK" ></class>  
+    </classes>
+</test>
+
+
+<test name="UK Classic Existing User With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.Classic_ExistingUserWithMultipleCardsAndPromoInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Guest">
+    <classes>
+        <class name="spafinder.co.uk.Classic_GuestInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Guest Using 3D Visa">
+    <classes>
+        <class name="spafinder.co.uk.Classic_GuestUsing3DVisaInUK" ></class>  
+    </classes>
+</test>
+
+
+<test name="UK Classic Guest Using Promo">
+    <classes>
+        <class name="spafinder.co.uk.Classic_GuestUsingPromoInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Classic Guest With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.Classic_GuestWithMultipleCardsAndPromoInUK"></class>  
+    </classes>
+</test>
+
+
+<test name="UK IGC Existing User">
+    <classes>
+        <class name="spafinder.co.uk.IGC_ExistingUserInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Existing User Using 3D Visa Card">
+    <classes>
+        <class name="spafinder.co.uk.IGC_ExistingUserUsing3DVisaCardInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Existing User Using Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_ExistingUserUsingPromoInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Email Existing User With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_Email_ExistingUserWithMultipleCardsAndPromoUK"></class>  
+    </classes>
+</test>
+
+
+<test name="UK IGC Email Guest">
+    <classes>
+        <class name="spafinder.co.uk.IGC_GuestInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Guest Using 3D Visa Card">
+    <classes>
+        <class name="spafinder.co.uk.IGC_GuestUsing3DVisaInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Guest Using Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_GuestUsingPromoInUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Guest With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_GuestWithMultipleCardsAndPromoUK" ></class>  
+    </classes>
+</test>
+
+
+<test name="UK IGC Print User With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.co.uk.IGC_Print_ExistingUserWithMultipleCardsAndPromoUK"></class>  
+    </classes>
+</test>
+
+<test name="UK IGC Print Guest">
+    <classes>
+        <class name="spafinder.co.uk.IGC_Print_GuestInUK"></class>  
+    </classes>
+</test>
+
+
+<test name="UK MBO using GC">
+    <classes>
+        <class name="spafinder.co.uk.MBOusingGCinUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK MBO using CC and Gift Card Test">
+    <classes>
+        <class name="spafinder.co.uk.MBOusingGCandCCinUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Existing MBO Checkout using CC">
+    <classes>
+        <class name="spafinder.co.uk.MboMemberUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Existing G1 Checkout Using CC">
+    <classes>
+        <class name="spafinder.co.uk.G1AlreadyMemberUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK G1 Checkout using Gift Card">
+    <classes>
+        <class name="spafinder.co.uk.G1usingGCinUK" ></class>  
+    </classes>
+</test>
+
+<test name="UK Search by City, Country, Zip, SpaTypes">
+    <classes>
+        <class name="spafinder.co.uk.SearchBoxUK" ></class>  
+    </classes>
+</test>
+<test name="UK Homepage Footer">
+    <classes>
+        <class name="spafinder.co.uk.HomepageFooterUK" ></class>  
+    </classes>
+</test>
+<test name="UK My Account Page">
+    <classes>
+        <class name="spafinder.co.uk.MyAccountPage_InUK" ></class>  
+    </classes>
+</test>
+
+
+<test name="Homepage Footer in USA">
+    <classes>
+        <class name="spafinder.com.HomepageFooterUSA" ></class>  
+    </classes>
+</test>
+<test name="My Account Page in USA">
+    <classes>
+        <class name="spafinder.com.MyAccountPageInUSA" ></class>  
+    </classes>
+</test>
+<test name="Search by City, Country, Zip, SpaTypes in USA">
+    <classes>
+        <class name="spafinder.com.SearchBoxTestingUSA" ></class>  
+    </classes>
+</test>
+<test name="Search Page Test in USA">
+    <classes>
+        <class name="spafinder.com.SearchPageInUSA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA Search by City, Country, Zip, SpaTypes">
+    <classes>
+        <class name="spafinder.ca.SearchBoxTestingCA"></class>  
+    </classes>
+</test>
+<test name="CA Homepage Footer">
+    <classes>
+        <class name="spafinder.ca.HomepageFooterCA"></class>  
+    </classes>
+</test>
+<test name="CA My Account Page">
+    <classes>
+        <class name="spafinder.ca.MyAccountPage_InCA" ></class>  
+    </classes>
+</test>
+
+</suite>

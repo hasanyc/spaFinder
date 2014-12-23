@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80860" started-at="2014-12-19T17:23:25Z" finished-at="2014-12-19T17:24:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80860" started-at="2014-12-19T17:23:25Z" finished-at="2014-12-19T17:24:46Z">
+      <class name="spafinder.co.uk.G1usingGCinUK">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:spafinder.co.uk.G1usingGCinUK@18a00e3]" name="setBrowser" is-config="true" duration-ms="5784" started-at="2014-12-19T12:23:25Z" finished-at="2014-12-19T12:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="G1AlreadyMemberUsingGC_UK()[pri:0, instance:spafinder.co.uk.G1usingGCinUK@18a00e3]" name="G1AlreadyMemberUsingGC_UK" duration-ms="74701" started-at="2014-12-19T12:23:31Z" finished-at="2014-12-19T12:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G1AlreadyMemberUsingGC_UK -->
+        <test-method status="PASS" signature="closeURL()[pri:0, instance:spafinder.co.uk.G1usingGCinUK@18a00e3]" name="closeURL" is-config="true" duration-ms="365" started-at="2014-12-19T12:24:46Z" finished-at="2014-12-19T12:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- spafinder.co.uk.G1usingGCinUK -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

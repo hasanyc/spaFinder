@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Spafinder]">
+  <test name="MBO_Existing user using Gift and Credit Card in USA(failed)">
+    <classes>
+      <class name="spafinder.co.uk.MBOusingGCinUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.MBOusingGCinUK -->
+      <class name="spafinder.co.uk.MboMemberUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.MboMemberUK -->
+      <class name="spafinder.com.MBOusingGCinUSA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.MBOusingGCinUSA -->
+      <class name="spafinder.ca.MBO_ExistingUserUsingCCinCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.MBO_ExistingUserUsingCCinCA -->
+      <class name="spafinder.com.G1usingGC">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.G1usingGC -->
+      <class name="spafinder.co.uk.G1usingGCinUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.G1usingGCinUK -->
+      <class name="spafinder.co.uk.MBOusingGCandCCinUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.MBOusingGCandCCinUK -->
+      <class name="spafinder.ca.G1_ExistingUserUsingGiftCardInCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.G1_ExistingUserUsingGiftCardInCA -->
+      <class name="spafinder.ca.MBO_ExistingUserUsingGiftCardInCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.MBO_ExistingUserUsingGiftCardInCA -->
+      <class name="spafinder.co.uk.G1AlreadyMemberUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.G1AlreadyMemberUK -->
+      <class name="spafinder.com.MBOusingGCandCC">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+          <include name="MBOusing_GCandCC_inUSA"/>
+        </methods>
+      </class> <!-- spafinder.com.MBOusingGCandCC -->
+      <class name="spafinder.ca.MyAccountPage_InCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.MyAccountPage_InCA -->
+      <class name="spafinder.com.MyAccountPageInUSA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.MyAccountPageInUSA -->
+      <class name="spafinder.ca.G1_ExistingUserUsingCCinCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.G1_ExistingUserUsingCCinCA -->
+      <class name="spafinder.co.uk.MyAccountPage_InUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.MyAccountPage_InUK -->
+      <class name="spafinder.com.MBOalreadyMemberUSA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.MBOalreadyMemberUSA -->
+      <class name="spafinder.ca.MBO_ExistingUserUsingCCandGCinCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.MBO_ExistingUserUsingCCandGCinCA -->
+      <class name="spafinder.com.G1AlreadyMemberUSA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.G1AlreadyMemberUSA -->
+    </classes>
+  </test> <!-- MBO_Existing user using Gift and Credit Card in USA(failed) -->
+  <test name="UK G1 Checkout using Gift Card(failed)">
+    <classes>
+      <class name="spafinder.co.uk.MBOusingGCinUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.MBOusingGCinUK -->
+      <class name="spafinder.co.uk.MboMemberUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.MboMemberUK -->
+      <class name="spafinder.com.MBOusingGCinUSA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.MBOusingGCinUSA -->
+      <class name="spafinder.ca.MBO_ExistingUserUsingCCinCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.MBO_ExistingUserUsingCCinCA -->
+      <class name="spafinder.com.G1usingGC">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.G1usingGC -->
+      <class name="spafinder.co.uk.G1usingGCinUK">
+        <methods>
+          <include name="G1AlreadyMemberUsingGC_UK"/>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.G1usingGCinUK -->
+      <class name="spafinder.co.uk.MBOusingGCandCCinUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.MBOusingGCandCCinUK -->
+      <class name="spafinder.ca.G1_ExistingUserUsingGiftCardInCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.G1_ExistingUserUsingGiftCardInCA -->
+      <class name="spafinder.ca.MBO_ExistingUserUsingGiftCardInCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.MBO_ExistingUserUsingGiftCardInCA -->
+      <class name="spafinder.co.uk.G1AlreadyMemberUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.G1AlreadyMemberUK -->
+      <class name="spafinder.com.MBOusingGCandCC">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.MBOusingGCandCC -->
+      <class name="spafinder.ca.MyAccountPage_InCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.MyAccountPage_InCA -->
+      <class name="spafinder.com.MyAccountPageInUSA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.MyAccountPageInUSA -->
+      <class name="spafinder.ca.G1_ExistingUserUsingCCinCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.G1_ExistingUserUsingCCinCA -->
+      <class name="spafinder.co.uk.MyAccountPage_InUK">
+        <methods>
+          <include name="closeURL"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- spafinder.co.uk.MyAccountPage_InUK -->
+      <class name="spafinder.com.MBOalreadyMemberUSA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.MBOalreadyMemberUSA -->
+      <class name="spafinder.ca.MBO_ExistingUserUsingCCandGCinCA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- spafinder.ca.MBO_ExistingUserUsingCCandGCinCA -->
+      <class name="spafinder.com.G1AlreadyMemberUSA">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spafinder.com.G1AlreadyMemberUSA -->
+    </classes>
+  </test> <!-- UK G1 Checkout using Gift Card(failed) -->
+</suite> <!-- Failed suite [Spafinder] -->

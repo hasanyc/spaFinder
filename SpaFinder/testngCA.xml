@@ -1,0 +1,122 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SpaFinder.ca">
+
+<test name="CA Classic Existing User">
+    <classes>
+        <class name="spafinder.ca.Classic_ExistingUserInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA Classic Existing User With Multiple Cards And Promo Using Express">
+    <classes>
+        <class name="spafinder.ca.Classic_ExistingUserWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA Classic Guest">
+    <classes>
+        <class name="spafinder.ca.Classic_GuestInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA Classic Guest With Multiple Cards And Promo using Express Shipping">
+    <classes>
+        <class name="spafinder.ca.Classic_GuestWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA IGC Existing User">
+    <classes>
+        <class name="spafinder.ca.IGC_ExistingUserInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Email Existing User With Multiple Cards And Promo">
+    <classes>
+        <class name="spafinder.ca.IGC_ExistingUserWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Email Guest">
+    <classes>
+        <class name="spafinder.ca.IGC_GuestInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Guest Using Flyer Miles">
+    <classes>
+        <class name="spafinder.ca.IGC_GuestUsingFlyerMilesInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC Guest With Multiple Cards And Promo using express shipping">
+    <classes>
+        <class name="spafinder.ca.IGC_GuestWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA IGC Print Gust">
+    <classes>
+        <class name="spafinder.ca.IGC_Print_GuestInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA IGC User With Multiple Cards And Promo using PRINT option">
+    <classes>
+        <class name="spafinder.ca.IGC_Print_UserWithMultipleCardsAndPromoInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA MBO Existing User Using Gift Card">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingGiftCardInCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA MBO Existing User Using CC and GC">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingCCandGCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA MBO Existing User Using CC">
+    <classes>
+        <class name="spafinder.ca.MBO_ExistingUserUsingCCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA G1 Existing User Using CC and GC">
+    <classes>
+        <class name="spafinder.ca.G1_ExistingUserUsingCCinCA" ></class>  
+    </classes>
+</test>
+
+<test name="CA G1 Existing User Using Gift Card">
+    <classes>
+        <class name="spafinder.ca.G1_ExistingUserUsingGiftCardInCA" ></class>  
+    </classes>
+</test>
+
+
+<test name="CA Search by City, Country, Zip, SpaTypes">
+    <classes>
+        <class name="spafinder.ca.SearchBoxTestingCA"></class>  
+    </classes>
+</test>
+<test name="CA Homepage Footer">
+    <classes>
+        <class name="spafinder.ca.HomepageFooterCA"></class>  
+    </classes>
+</test>
+<test name="CA My Account Page">
+    <classes>
+        <class name="spafinder.ca.MyAccountPage_InCA" ></class>  
+    </classes>
+</test>
+
+</suite>
