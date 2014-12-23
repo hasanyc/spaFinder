@@ -6,7 +6,7 @@ public class UserPartnerValue {
 	
 	
 	public String SpaEmail							= "qa.test@spafinder.com";
-	public String SpaPassword						= "Finderspa1";
+	public String SpaPassword						= "xxx";
 
 	public String signUpFNameValue					= "qatest";
 	public String signUpLNameValue					= "hasan";
