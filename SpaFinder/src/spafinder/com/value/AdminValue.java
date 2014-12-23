@@ -6,7 +6,7 @@ public class AdminValue {
 	
 	
 	public String adminUserNameValue 				=	"qa.test";
-	public String adminPassValue					=	"Finderspa1";
+	public String adminPassValue					=	"xxxx";
 	
 	public String BusinessFNameValue				= "Sayan";
 	public String BusinessLnameValue				= "Bhuiyan";
