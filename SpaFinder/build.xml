@@ -116,7 +116,7 @@
 	mailport="465"
 	ssl="true"
 	user="hasanrif@gmail.com"
-	password="hr080892">
+	password="pwd">
 	<attachments>
 	<fileset dir="${ws.home}">
 	<include name="**/*.zip"/>
