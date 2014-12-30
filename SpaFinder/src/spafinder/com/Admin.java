@@ -14,7 +14,7 @@ public class Admin extends spafinder.com.base.USABaseClass {
 		driver.findElement(By.id("j_username")).clear();
 		driver.findElement(By.id("j_username")).sendKeys("qa.test");
 		driver.findElement(By.id("j_password")).clear();
-		driver.findElement(By.id("j_password")).sendKeys("Finderspa1");
+		driver.findElement(By.id("j_password")).sendKeys("pwd");
 		driver.findElement(By.id("SF_submit")).click();
 		driver.get ("http://www.spafinder.com/admin/business/managespas/businessinfo.htm?id=76773");
 		
