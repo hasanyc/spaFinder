@@ -76,9 +76,9 @@ public class HomePageValue {
 	public String verifySubscribe						= "Thanks for signing up!";
 	
 // CopyRight
-	public String copyRightValueUK						= "© 2014 Spafinder Wellness UK, Ltd. All rights reserved. Legal Notices.  9-13 Fenchurch Buildings, Fenchurch Street, London EC3M 5HR";
-	public String copyRightValueUSA						= "© 2014 Spafinder Wellness 365, Inc. All rights reserved. Legal Notices.";
-	public String copyRightValueCA						= "© 2014 Spafinder Wellness Ltd. All rights reserved. Legal Notices.";
+	public String copyRightValueUK						= "Â© 2015 Spafinder Wellness UK, Ltd. All rights reserved. Legal Notices.  9-13 Fenchurch Buildings, Fenchurch Street, London EC3M 5HR";
+	public String copyRightValueUSA						= "Â© 2015 Spafinder Wellness 365, Inc. All rights reserved. Legal Notices.";
+	public String copyRightValueCA						= "Â© 2015 Spafinder Wellness Ltd. All rights reserved. Legal Notices.";
 	
 // UK Social Networks
 	public String ukFacebookValue						= "Spafinder Wellness UK";
