@@ -1,0 +1,52 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+public class CreateUsers {
+
+	
+	@Test (invocationCount =3, dataProvider = "dp")
+	public void runTest (String firstName, String lastName, String eMail, String Password, String rePassword){
+
+		WebDriver driver = new FirefoxDriver ();
+		driver.get("https://www.spafinder.com/account/clubspa/signup.jsp");
+		driver.findElement(By.id("first-name")).clear();
+		driver.findElement(By.id("first-name")).sendKeys(firstName); // 1
+		driver.findElement(By.id("last-name")).clear();
+		driver.findElement(By.id("last-name")).sendKeys(lastName); // 2
+		driver.findElement(By.id("register-email")).clear();
+		driver.findElement(By.id("register-email")).sendKeys(eMail); // 3
+		driver.findElement(By.id("register-password")).clear();
+		driver.findElement(By.id("register-password")).sendKeys(Password); // 4
+		driver.findElement(By.id("confirm-password")).clear();
+		driver.findElement(By.id("confirm-password")).sendKeys(rePassword); // 5
+		driver.findElement(By.name("submit")).click(); 
+
+	}
+
+	@DataProvider (name="dp")
+	public Object[][] dp1() {
+		
+		DateFormat dateFormat = new SimpleDateFormat("M.d.YY.hh.mm.ss"); // ("EEEE - MM/dd/YYYY & hh:mm:ss a");
+		Calendar cal = Calendar.getInstance();
+		String currentDate = dateFormat.format(cal.getTime());
+		String email1 = "hasan";
+		String email2 = "@gmail.com";
+		String emailAddress = email1+currentDate+email2;
+		
+		
+		Object[][] data = new Object[1][5]; // [10] as many times u want to run  and [6] is your string parameters in test class
+		data[0][0] = "Hasan";
+		data[0][1] = "Bhuiyan";
+		data[0][2] = emailAddress;
+		data[0][3] = "Finderspa1";
+		data[0][4] = "Finderspa1";
+		//System.out.println (data);
+		return data;
+	}
+}
