@@ -13,12 +13,12 @@ public class UserPartnerValue {
 	public String signUpEmailvalue					= "spauser61@aol.com";
 
 	public String partnerUserName					= "hasanyc";
-	public String partnerPasswordValue				= "test.123";
+	public String partnerPasswordValue				= "XXXXXXX";
 
 // Flex Partner
 	public String BusinessNameValue					= "QA Automation3";
 	public String BusinessEmailValue				= "qa.automation3@gmail.com";
-	public String BusinessPasswordValue				= "Test123";
+	public String BusinessPasswordValue				= "XXXXXX";
 	public String BusinessTypeValue					= "Day Spa";
 	public String BusinessAddressValue				= "257 Park Ave South";
 	public String BusinessStateValue				= "New York";
