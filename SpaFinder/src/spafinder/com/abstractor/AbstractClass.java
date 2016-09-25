@@ -990,7 +990,7 @@ protected Logger APPLICATION_LOGS = Logger.getLogger(AbstractClass.class);
 		 Connection conn =null;
 		try {
             Class.forName("net.sourceforge.jtds.jdbc.Driver");
-             conn = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.71.16/SW", "SFUser", "$FL00s3r");
+             conn = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.71.16/SW", "SFUser", "xyzzzz");
              stmt = conn.prepareStatement("update t_certificate "
 							  + "set redeemdate = null ,sfw_spa_id = null ,[status] = 30 ,userid= null ,officeId = null "
 							  + ",AmountPaid = null where certcode in  ( select t.certcode from t_certificate t left join spafinder.dbo.spas s on t.sfw_spa_id = s.spaid "
